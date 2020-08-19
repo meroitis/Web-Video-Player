@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92910BD624EDA46800149E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92910BD524EDA46800149E19 /* AppDelegate.swift */; };
+		92910BD824EDA46800149E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92910BD724EDA46800149E19 /* SceneDelegate.swift */; };
+		92910BDA24EDA46800149E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92910BD924EDA46800149E19 /* ViewController.swift */; };
+		92910BDD24EDA46800149E19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92910BDB24EDA46800149E19 /* Main.storyboard */; };
+		92910BDF24EDA46A00149E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92910BDE24EDA46A00149E19 /* Assets.xcassets */; };
+		92910BE224EDA46A00149E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92910BE024EDA46A00149E19 /* LaunchScreen.storyboard */; };
+		92910BED24EDA46A00149E19 /* Cristobals_Web_Video_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92910BEC24EDA46A00149E19 /* Cristobals_Web_Video_PlayerTests.swift */; };
+		92910BF824EDA46A00149E19 /* Cristobals_Web_Video_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92910BF724EDA46A00149E19 /* Cristobals_Web_Video_PlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92910BE924EDA46A00149E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92910BCA24EDA46800149E19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92910BD124EDA46800149E19;
+			remoteInfo = "Cristobals Web Video Player";
+		};
+		92910BF424EDA46A00149E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92910BCA24EDA46800149E19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92910BD124EDA46800149E19;
+			remoteInfo = "Cristobals Web Video Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92910BD224EDA46800149E19 /* Cristobals Web Video Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cristobals Web Video Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92910BD524EDA46800149E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92910BD724EDA46800149E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92910BD924EDA46800149E19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92910BDC24EDA46800149E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92910BDE24EDA46A00149E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92910BE124EDA46A00149E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92910BE324EDA46A00149E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92910BE824EDA46A00149E19 /* Cristobals Web Video PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cristobals Web Video PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92910BEC24EDA46A00149E19 /* Cristobals_Web_Video_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cristobals_Web_Video_PlayerTests.swift; sourceTree = "<group>"; };
+		92910BEE24EDA46A00149E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92910BF324EDA46A00149E19 /* Cristobals Web Video PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cristobals Web Video PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92910BF724EDA46A00149E19 /* Cristobals_Web_Video_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cristobals_Web_Video_PlayerUITests.swift; sourceTree = "<group>"; };
+		92910BF924EDA46A00149E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92910BCF24EDA46800149E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92910BE524EDA46A00149E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92910BF024EDA46A00149E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92910BC924EDA46800149E19 = {
+			isa = PBXGroup;
+			children = (
+				92910BD424EDA46800149E19 /* Cristobals Web Video Player */,
+				92910BEB24EDA46A00149E19 /* Cristobals Web Video PlayerTests */,
+				92910BF624EDA46A00149E19 /* Cristobals Web Video PlayerUITests */,
+				92910BD324EDA46800149E19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92910BD324EDA46800149E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92910BD224EDA46800149E19 /* Cristobals Web Video Player.app */,
+				92910BE824EDA46A00149E19 /* Cristobals Web Video PlayerTests.xctest */,
+				92910BF324EDA46A00149E19 /* Cristobals Web Video PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92910BD424EDA46800149E19 /* Cristobals Web Video Player */ = {
+			isa = PBXGroup;
+			children = (
+				92910BD524EDA46800149E19 /* AppDelegate.swift */,
+				92910BD724EDA46800149E19 /* SceneDelegate.swift */,
+				92910BD924EDA46800149E19 /* ViewController.swift */,
+				92910BDB24EDA46800149E19 /* Main.storyboard */,
+				92910BDE24EDA46A00149E19 /* Assets.xcassets */,
+				92910BE024EDA46A00149E19 /* LaunchScreen.storyboard */,
+				92910BE324EDA46A00149E19 /* Info.plist */,
+			);
+			path = "Cristobals Web Video Player";
+			sourceTree = "<group>";
+		};
+		92910BEB24EDA46A00149E19 /* Cristobals Web Video PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				92910BEC24EDA46A00149E19 /* Cristobals_Web_Video_PlayerTests.swift */,
+				92910BEE24EDA46A00149E19 /* Info.plist */,
+			);
+			path = "Cristobals Web Video PlayerTests";
+			sourceTree = "<group>";
+		};
+		92910BF624EDA46A00149E19 /* Cristobals Web Video PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92910BF724EDA46A00149E19 /* Cristobals_Web_Video_PlayerUITests.swift */,
+				92910BF924EDA46A00149E19 /* Info.plist */,
+			);
+			path = "Cristobals Web Video PlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92910BD124EDA46800149E19 /* Cristobals Web Video Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92910BFC24EDA46A00149E19 /* Build configuration list for PBXNativeTarget "Cristobals Web Video Player" */;
+			buildPhases = (
+				92910BCE24EDA46800149E19 /* Sources */,
+				92910BCF24EDA46800149E19 /* Frameworks */,
+				92910BD024EDA46800149E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cristobals Web Video Player";
+			productName = "Cristobals Web Video Player";
+			productReference = 92910BD224EDA46800149E19 /* Cristobals Web Video Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92910BE724EDA46A00149E19 /* Cristobals Web Video PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92910BFF24EDA46A00149E19 /* Build configuration list for PBXNativeTarget "Cristobals Web Video PlayerTests" */;
+			buildPhases = (
+				92910BE424EDA46A00149E19 /* Sources */,
+				92910BE524EDA46A00149E19 /* Frameworks */,
+				92910BE624EDA46A00149E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92910BEA24EDA46A00149E19 /* PBXTargetDependency */,
+			);
+			name = "Cristobals Web Video PlayerTests";
+			productName = "Cristobals Web Video PlayerTests";
+			productReference = 92910BE824EDA46A00149E19 /* Cristobals Web Video PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92910BF224EDA46A00149E19 /* Cristobals Web Video PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92910C0224EDA46A00149E19 /* Build configuration list for PBXNativeTarget "Cristobals Web Video PlayerUITests" */;
+			buildPhases = (
+				92910BEF24EDA46A00149E19 /* Sources */,
+				92910BF024EDA46A00149E19 /* Frameworks */,
+				92910BF124EDA46A00149E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92910BF524EDA46A00149E19 /* PBXTargetDependency */,
+			);
+			name = "Cristobals Web Video PlayerUITests";
+			productName = "Cristobals Web Video PlayerUITests";
+			productReference = 92910BF324EDA46A00149E19 /* Cristobals Web Video PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92910BCA24EDA46800149E19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Cristobal Romero";
+				TargetAttributes = {
+					92910BD124EDA46800149E19 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					92910BE724EDA46A00149E19 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 92910BD124EDA46800149E19;
+					};
+					92910BF224EDA46A00149E19 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 92910BD124EDA46800149E19;
+					};
+				};
+			};
+			buildConfigurationList = 92910BCD24EDA46800149E19 /* Build configuration list for PBXProject "Cristobals Web Video Player" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92910BC924EDA46800149E19;
+			productRefGroup = 92910BD324EDA46800149E19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92910BD124EDA46800149E19 /* Cristobals Web Video Player */,
+				92910BE724EDA46A00149E19 /* Cristobals Web Video PlayerTests */,
+				92910BF224EDA46A00149E19 /* Cristobals Web Video PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92910BD024EDA46800149E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92910BE224EDA46A00149E19 /* LaunchScreen.storyboard in Resources */,
+				92910BDF24EDA46A00149E19 /* Assets.xcassets in Resources */,
+				92910BDD24EDA46800149E19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92910BE624EDA46A00149E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92910BF124EDA46A00149E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92910BCE24EDA46800149E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92910BDA24EDA46800149E19 /* ViewController.swift in Sources */,
+				92910BD624EDA46800149E19 /* AppDelegate.swift in Sources */,
+				92910BD824EDA46800149E19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92910BE424EDA46A00149E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92910BED24EDA46A00149E19 /* Cristobals_Web_Video_PlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92910BEF24EDA46A00149E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92910BF824EDA46A00149E19 /* Cristobals_Web_Video_PlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92910BEA24EDA46A00149E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92910BD124EDA46800149E19 /* Cristobals Web Video Player */;
+			targetProxy = 92910BE924EDA46A00149E19 /* PBXContainerItemProxy */;
+		};
+		92910BF524EDA46A00149E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92910BD124EDA46800149E19 /* Cristobals Web Video Player */;
+			targetProxy = 92910BF424EDA46A00149E19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92910BDB24EDA46800149E19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92910BDC24EDA46800149E19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92910BE024EDA46A00149E19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92910BE124EDA46A00149E19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92910BFA24EDA46A00149E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92910BFB24EDA46A00149E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92910BFD24EDA46A00149E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cristobals Web Video Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WebVideoPlayer.Cristobals-Web-Video-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92910BFE24EDA46A00149E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cristobals Web Video Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WebVideoPlayer.Cristobals-Web-Video-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92910C0024EDA46A00149E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cristobals Web Video PlayerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WebVideoPlayer.Cristobals-Web-Video-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cristobals Web Video Player.app/Cristobals Web Video Player";
+			};
+			name = Debug;
+		};
+		92910C0124EDA46A00149E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cristobals Web Video PlayerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WebVideoPlayer.Cristobals-Web-Video-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cristobals Web Video Player.app/Cristobals Web Video Player";
+			};
+			name = Release;
+		};
+		92910C0324EDA46A00149E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cristobals Web Video PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WebVideoPlayer.Cristobals-Web-Video-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cristobals Web Video Player";
+			};
+			name = Debug;
+		};
+		92910C0424EDA46A00149E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cristobals Web Video PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WebVideoPlayer.Cristobals-Web-Video-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cristobals Web Video Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92910BCD24EDA46800149E19 /* Build configuration list for PBXProject "Cristobals Web Video Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92910BFA24EDA46A00149E19 /* Debug */,
+				92910BFB24EDA46A00149E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92910BFC24EDA46A00149E19 /* Build configuration list for PBXNativeTarget "Cristobals Web Video Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92910BFD24EDA46A00149E19 /* Debug */,
+				92910BFE24EDA46A00149E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92910BFF24EDA46A00149E19 /* Build configuration list for PBXNativeTarget "Cristobals Web Video PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92910C0024EDA46A00149E19 /* Debug */,
+				92910C0124EDA46A00149E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92910C0224EDA46A00149E19 /* Build configuration list for PBXNativeTarget "Cristobals Web Video PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92910C0324EDA46A00149E19 /* Debug */,
+				92910C0424EDA46A00149E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92910BCA24EDA46800149E19 /* Project object */;
+}
